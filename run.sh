@@ -18,9 +18,9 @@ do
       ;;
       "2") echo "$D INFO Message $RM."
       ;;
-      "3") echo "$D WARN $RM."
+      "3") echo "$D WARN Message $RM."
       ;;
-      "4") echo "$D DEBUG $RM."
+      "4") echo "$D DEBUG Message $RM."
       ;;
    esac
    c=$(( c+1 ))
