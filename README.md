@@ -25,7 +25,7 @@ Source code for image  https://hub.docker.com/repository/docker/cryptotuga/log-s
 
 ## how to build this image
 
-If you don't want to download from my docker hub https://hub.docker.com/repository/docker/cryptotuga/log-spammer , you can use these command:
+If you don't want to download from my docker hub https://hub.docker.com/repository/docker/cryptotuga/log-spammer , you can use these commands:
 
 - Clone this repo
 
@@ -37,7 +37,7 @@ If you don't want to download from my docker hub https://hub.docker.com/reposito
 
 - Build and tag the image
 
-`docker build --tag cryptotuga/log-spammer:0.1 .`
+`docker build --tag cryptotuga/log-spammer:latest .`
 
 ## How to use
 
