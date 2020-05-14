@@ -1,0 +1,22 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: log-spammer
+  namespace: log-spammer
+spec:
+  selector:
+    matchLabels:
+      app: log-spammer
+  template:
+    metadata:
+      labels:
+        app: log-spammer
+    spec:
+      containers:
+      - name: log-spammer
+        image: docker.io/cryptotuga/log-spammer:latest
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
